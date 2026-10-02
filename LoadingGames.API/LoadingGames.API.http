@@ -1,0 +1,9 @@
+@LoadingGames_API_HostAddress = http://localhost:5289
+
+POST {{LoadingGames_API_HostAddress}}/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "gabriela@gmail.com",
+  "senha": "123456789"
+}
