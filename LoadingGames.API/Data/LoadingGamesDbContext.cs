@@ -12,5 +12,13 @@ namespace LoadingGames.API.Data
 		}
 
 		public DbSet<Usuario> Usuarios { get; set; }
+		public DbSet<Jogo> Jogos { get; set; }
+
+		public DbSet<Carrinho> Carrinhos { get; set; }
+		public DbSet<ItemCarrinho> ItensCarrinho { get; set; }
+
+		public DbSet<Compra> Compras { get; set; }
+		public DbSet<ItemCompra> ItensCompra { get; set; }
+		public DbSet<PosseJogo> PosseJogos { get; set; }
 	}
 }

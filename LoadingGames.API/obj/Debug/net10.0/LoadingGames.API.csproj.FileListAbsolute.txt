@@ -31,10 +31,11 @@ C:\Users\3bmod\Desktop\Yasmim\LoadingGames.API\LoadingGames.API\obj\Debug\net10.
 C:\Users\3bmod\Desktop\Yasmim\LoadingGames.API\LoadingGames.API\obj\Debug\net10.0\staticwebassets.development.json
 C:\Users\3bmod\Desktop\Yasmim\LoadingGames.API\LoadingGames.API\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Users\3bmod\Desktop\Yasmim\LoadingGames.API\LoadingGames.API\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\3bmod\Desktop\Yasmim\LoadingGames.API\LoadingGames.API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\3bmod\Desktop\Yasmim\LoadingGames.API\LoadingGames.API\obj\Debug\net10.0\LoadingG.0B33BB4E.Up2Date
 C:\Users\3bmod\Desktop\Yasmim\LoadingGames.API\LoadingGames.API\obj\Debug\net10.0\LoadingGames.API.dll
 C:\Users\3bmod\Desktop\Yasmim\LoadingGames.API\LoadingGames.API\obj\Debug\net10.0\refint\LoadingGames.API.dll
 C:\Users\3bmod\Desktop\Yasmim\LoadingGames.API\LoadingGames.API\obj\Debug\net10.0\LoadingGames.API.pdb
 C:\Users\3bmod\Desktop\Yasmim\LoadingGames.API\LoadingGames.API\obj\Debug\net10.0\LoadingGames.API.genruntimeconfig.cache
 C:\Users\3bmod\Desktop\Yasmim\LoadingGames.API\LoadingGames.API\obj\Debug\net10.0\ref\LoadingGames.API.dll
+C:\Users\3bmod\Desktop\Yasmim\LoadingGames.API\LoadingGames.API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\3bmod\Desktop\Yasmim\LoadingGames.API\LoadingGames.API\bin\Debug\net10.0\LoadingGames.API.staticwebassets.runtime.json

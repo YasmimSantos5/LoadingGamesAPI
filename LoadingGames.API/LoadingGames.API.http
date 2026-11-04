@@ -7,3 +7,11 @@ Content-Type: application/json
   "email": "gabriela@gmail.com",
   "senha": "123456789"
 }
+
+POST http://localhost:5289/api/carrinho/adicionar
+Content-Type: application/json
+
+{
+  "idUsuario": 1,
+  "idJogo": 1
+}

@@ -1,3 +1,4 @@
+
 using LoadingGames.API.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -27,7 +28,17 @@ if (app.Environment.IsDevelopment())
 	app.MapOpenApi();
 }
 
-//app.UseHttpsRedirection();
+// Diagnóstico das pastas
+Console.WriteLine("Pasta da API: " +
+	app.Environment.ContentRootPath);
+
+Console.WriteLine("Pasta das imagens: " +
+	app.Environment.WebRootPath);
+
+// Permite acessar imagens em wwwroot
+app.UseStaticFiles();
+
+// app.UseHttpsRedirection();
 
 app.UseAuthorization();
 

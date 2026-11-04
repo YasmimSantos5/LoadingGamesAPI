@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "LoadingGames.API.Controllers.AuthController",
+    "Method": "AlterarSenha",
+    "RelativePath": "api/Auth/alterar-senha",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LoadingGames.API.Controllers.AlterarSenhaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LoadingGames.API.Controllers.AuthController",
     "Method": "Cadastro",
     "RelativePath": "api/Auth/cadastro",
     "HttpMethod": "POST",
@@ -27,6 +43,123 @@
         "Name": "request",
         "Type": "LoadingGames.API.Controllers.LoginRequest",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LoadingGames.API.Controllers.AuthController",
+    "Method": "AtualizarPerfil",
+    "RelativePath": "api/Auth/perfil",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LoadingGames.API.Controllers.AtualizarPerfilRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LoadingGames.API.Controllers.BibliotecaController",
+    "Method": "BuscarBiblioteca",
+    "RelativePath": "api/Biblioteca/{idUsuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LoadingGames.API.Controllers.CarrinhoController",
+    "Method": "BuscarCarrinho",
+    "RelativePath": "api/Carrinho/{idUsuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LoadingGames.API.Controllers.CarrinhoController",
+    "Method": "AdicionarAoCarrinho",
+    "RelativePath": "api/Carrinho/adicionar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LoadingGames.API.Controllers.AdicionarCarrinhoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LoadingGames.API.Controllers.CarrinhoController",
+    "Method": "RemoverItemCarrinho",
+    "RelativePath": "api/Carrinho/item/{idItemCarrinho}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idItemCarrinho",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LoadingGames.API.Controllers.ComprasController",
+    "Method": "FinalizarCompra",
+    "RelativePath": "api/Compras/finalizar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LoadingGames.API.Models.FinalizarCompraRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LoadingGames.API.Controllers.JogosController",
+    "Method": "PesquisarJogos",
+    "RelativePath": "api/Jogos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pesquisa",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
